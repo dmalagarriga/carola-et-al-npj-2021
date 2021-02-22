@@ -1,0 +1,16 @@
+First play your video to see if it is OK:
+
+ffplay -i YourMovie.mp4 -vf "cropdetect=24:16:0"
+
+The cropdetect filter values are:
+
+cropdetect=limit:round:reset
+
+limit = black threshold (default 24)
+round = output resolution must be divisible to this
+reset = after how many frames the detection process will start over
+If it looks OK, crop it:
+
+ffmpeg -i YourMovie.mp4 -vf "crop=640:256:0:36" YourCroppedMovie.mp4
+ffmpeg -i Movies/fluorescence_000_0m_1000hz.mpg -vf "crop=564:490:330:220" Movies/fluorescence_000_0m_1000hz.mp4
+

@@ -1,0 +1,16 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+from numpy import *
+
+Exp_10_percent_Output_e0 = genfromtxt('Neurodegeneration_TH_neurite_retraction/10_percent_neurons_TH/80_percent_exc/SEED_000/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+Exp_10_percent_Output_e1 = genfromtxt('Neurodegeneration_TH_neurite_retraction/10_percent_neurons_TH/80_percent_exc/SEED_001/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+Exp_10_percent_Output_e2 = genfromtxt('Neurodegeneration_TH_neurite_retraction/10_percent_neurons_TH/80_percent_exc/SEED_002/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+
+Exp_30_percent_Output_e0 = genfromtxt('Neurodegeneration_TH_neurite_retraction/30_percent_neurons_TH/80_percent_exc/SEED_000/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+Exp_30_percent_Output_e1 = genfromtxt('Neurodegeneration_TH_neurite_retraction/30_percent_neurons_TH/80_percent_exc/SEED_001/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+Exp_30_percent_Output_e2 = genfromtxt('Neurodegeneration_TH_neurite_retraction/30_percent_neurons_TH/80_percent_exc/SEED_002/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+
+Exp_50_percent_Output_e0 = genfromtxt('Neurodegeneration_TH_neurite_retraction/50_percent_neurons_TH/80_percent_exc/SEED_000/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+Exp_50_percent_Output_e1 = genfromtxt('Neurodegeneration_TH_neurite_retraction/50_percent_neurons_TH/80_percent_exc/SEED_001/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)
+Exp_50_percent_Output_e2 = genfromtxt('Neurodegeneration_TH_neurite_retraction/50_percent_neurons_TH/80_percent_exc/SEED_002/Output_Connections/Random_pruning/80_percent_retraction/Analysis/Fluorescence/Multi_Unit_Activity.dat',unpack=True,dtype=float64)

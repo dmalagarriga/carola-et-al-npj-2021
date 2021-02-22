@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  carola-et-al-njp-2021:
+    image: carola-et-al-njp-2021
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888

@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  carola-et-al-njp-2021:
+    image: carola-et-al-njp-2021
+    build: .
+    ports:
+      - 8888:8888

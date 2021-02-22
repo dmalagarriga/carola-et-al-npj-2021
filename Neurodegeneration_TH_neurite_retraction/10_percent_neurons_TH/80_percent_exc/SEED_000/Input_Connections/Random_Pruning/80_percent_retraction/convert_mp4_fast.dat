@@ -1,0 +1,1 @@
+ffmpeg -i prova_2.mpg -filter:v "setpts=0.5*PTS" prova_2_fast.mp4

@@ -1,0 +1,4 @@
+3600000 # nt
+10 # ntout
+5.0e-2 # dt_neuron (ms)
+

@@ -1,0 +1,22 @@
+nohup: ignoring input
+Running ...
+...Running simulation... 0001
+Creating parameters object.
+nt: 3600000
+ntout: 10
+dt_neuron: 0.05
+KTH: 1
+nNeurons:692
+nConnections:19027
+nDopaminergic:0
+Destroying parameters object.
+..all done!
+ls: cannot open directory /etc/chatscripts: Permission denied
+ls: cannot open directory /etc/cups/ssl: Permission denied
+ls: cannot open directory /etc/ldap/slapd.d/cn=config: Permission denied
+ls: cannot open directory /etc/lvm/backup: Permission denied
+ls: cannot open directory /etc/lvm/cache: Permission denied
+ls: cannot open directory /etc/phpldapadmin/templates: Permission denied
+ls: cannot open directory /etc/ppp/peers: Permission denied
+ls: cannot open directory /etc/ssl/private: Permission denied
+It took 58466 seconds

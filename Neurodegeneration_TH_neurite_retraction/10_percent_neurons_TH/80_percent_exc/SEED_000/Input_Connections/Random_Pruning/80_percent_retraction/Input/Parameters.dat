@@ -1,0 +1,62 @@
+1.75e-3 # g_syn_soma: Conductance of the joint soma-dendrite
+1.75e-3 # g_syn_den: Conductance of the joint soma-dendrite
+1 # C: Capacitance
+1.5e-4 # A_soma: Area of the soma
+3.5e-4 # A_den: Area of the dendrite
+2.0e-4 # A_i: Area of inhibitory
+1 # Temp_fact: Temperature factor
+15 # tau_h_A (ms)
+5 # alpha_Ca
+15 # 1000# tau_Ca
+10 # alpha_Na +-2
+0.008 #  R_pump +- 0.0018
+0.088 # D Strength of Ornstein-Uhlenbeck noise
+9.5 # Conc_Na_eq
+1.0 # alpha_x_AMPA
+1.0 # alpha_x_NMDA
+1.0 # alpha_s_AMPA
+1.0 # alpha_s_NMDA
+0.9 # alpha_GABA
+2.0 # tau_s_AMPA
+80 # tau_s_NMDA
+10 # tau_s_GABA
+0.05 # tau_x_AMPA
+2.0 # tau_x_NMDA
+10.5 # g_K
+5.0e1 # g_Na
+0.0667 # g_L
+1.0 # g_A
+0.576 # # g_KS
+0.0686 # g_NaP
+0.0257 # g_AR
+0.43 # g_Ca
+0.57 # g_KCa
+1.33 # g_KNa
+7.35e-6 # g_ext_AMPA_exc
+8.0e-6 # g_ext_NMDA_exc
+2.25e-6 # g_ext_AMPA_inh
+8.0e-6 # g_ext_NMDA_inh
+2.0e-6 # g_AMPA_exc
+8.0e-6 # g_NMDA_exc
+4.80e-4 # g_GABA_exc
+2.25e-6 # g_AMPA_inh
+2.0e-6	# g_NMDA_inh
+2.40e-4	#  g_GABA_inh
+9.0 # g_K_i 
+35 # g_Na_i
+0.1025 # g_L_i +- 0.0025
+30 # K_D
+120 # V_Ca Exc
+-100 # -100 #-79 # V_K Exc
+55 # V_Na Exc
+-60.95 # V_L Exc +- 0.3
+-100 # V_K_i
+55 # V_Na_i
+-65.0 # -63.8 # -65 # V_L_i +- 0.15
+-70 # V_syn_GABA
+300 # epsilon
+0.0 # V_peak
+1.0 # Concentration of Mg
+16.0 # 16 # 16000 #10000 # 300 # 16.0 # tau_ext_rate
+30 # 2 # 35.0 # ext_rate (spikes/s)
+100 # 200.0 # amplitude_ext_rate (spikes/s)
